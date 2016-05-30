@@ -21,7 +21,7 @@ defmodule OAuth2.Mixfile do
   end
 
   defp deps do
-    [{:httpoison, "~> 0.7"},
+    [{:httpoison, github: "masonforest/httpoison"},
      {:poison, "~> 1.3 or ~> 2.0"},
      {:mimetype_parser, "~> 0.1"},
 
